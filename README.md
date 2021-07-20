@@ -1,1 +1,2 @@
-# C-plus_basic_and_data_structure
+C++을 이용한 백준 기본 문제와 자료구조 구현
+

@@ -1,3 +1,7 @@
+/*6. 시계
+ 백준 2884번
+ 문제 설명: https://www.acmicpc.net/problem/2884
+*/
 #include <cstdio>
 #include <iostream>
 using namespace std;

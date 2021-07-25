@@ -1,3 +1,7 @@
+/*7. 더하기 사이클
+ 백준 1110 문제
+ 문제 설명: https://www.acmicpc.net/problem/1110
+*/
 #include <cstdio>
 #include <iostream>
 using namespace std;

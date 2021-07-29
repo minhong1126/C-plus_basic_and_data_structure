@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <iostream>
-#include "stack.h"
+#include "8-1. stack_header.h"
 using namespace std;
 
 int main(void) {

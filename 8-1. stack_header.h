@@ -11,20 +11,20 @@ bool Empty(int arr[]) {
 
 void push(int* num, int arr[]) {
 	int push;
-	cout << "³ÖÀ» °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä" << endl;	//°ª ÀÔ·Â
+	cout << "ë„£ì„ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”" << endl;	//ê°’ ì…ë ¥
 	cin >> push;
 	arr[*num] = push;
 	*num += 1;
 	arr[*num] = NULL;
-	cout << "ÇöÀç ÀÚ·á °³¼ö " << *num << "°³" << endl << endl;
+	cout << "í˜„ì¬ ìë£Œ ê°œìˆ˜ " << *num << "ê°œ" << endl << endl;
 }
 
 void pop(int* num, int arr[]) {
 	if ((Empty(arr) == 1) || (*num - 1 < 0)) {
-		cout << "½ºÅÃÀÌ ºñ¾ú½À´Ï´Ù." << endl;
+		cout << "ìŠ¤íƒì´ ë¹„ì—ˆìŠµë‹ˆë‹¤." << endl;
 	}
 	else {
-		cout << "popµÈ °ªÀº " << arr[*num - 1] << "ÀÔ´Ï´Ù." << endl << "ÀÚ·á´Â " << *num-1 << "°³ ³²¾Ò½À´Ï´Ù." << endl;
+		cout << "popëœ ê°’ì€ " << arr[*num - 1] << "ì…ë‹ˆë‹¤." << endl << "ìë£ŒëŠ” " << *num-1 << "ê°œ ë‚¨ì•˜ìŠµë‹ˆë‹¤." << endl;
 		arr[*num] = NULL;
 		*num -= 1;
 	}
@@ -32,10 +32,10 @@ void pop(int* num, int arr[]) {
 
 void peek(int* num, int arr[]) {
 	if((Empty(arr) == 1) || (*num - 1 < 0)) {
-		cout << "½ºÅÃÀÌ ºñ¾ú½À´Ï´Ù." << endl;
+		cout << "ìŠ¤íƒì´ ë¹„ì—ˆìŠµë‹ˆë‹¤." << endl;
 	}
 	else {
-		cout << "°¡Àå À§¿¡ ÀÖ´Â ÀÚ·á´Â " << arr[*num - 1] << "ÀÔ´Ï´Ù." << endl;
+		cout << "ê°€ì¥ ìœ„ì— ìˆëŠ” ìë£ŒëŠ” " << arr[*num - 1] << "ì…ë‹ˆë‹¤." << endl;
 	}
 }
 

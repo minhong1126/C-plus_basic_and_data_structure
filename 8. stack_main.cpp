@@ -10,7 +10,7 @@ int main(void) {
 	int what;
 	
 	do{
-		cout << "¾î¶² ÀÛ¾÷À» ÇÏ½Ã°Ú½À´Ï±î?" << endl << endl;
+		cout << "ì–´ë–¤ ìž‘ì—…ì„ í•˜ì‹œê² ìŠµë‹ˆê¹Œ?" << endl << endl;
 		cout << "1. push" << endl << "2. pop" << endl << "3. peek" << endl;
 		cout << "4. end" << endl;
 		cin >> what;
@@ -26,6 +26,6 @@ int main(void) {
 				break;
 		}
 	} while (what != 4);
-	cout << "Á¾·áÇÕ´Ï´Ù.";
+	cout << "ì¢…ë£Œí•©ë‹ˆë‹¤.";
 	return 0;
 }
